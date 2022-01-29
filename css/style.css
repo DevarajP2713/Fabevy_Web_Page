@@ -1,0 +1,204 @@
+.template{
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+}
+.navbar-brand{
+    font-weight: bold;
+    font-family: 'Orbitron', sans-serif;
+}
+.banner-sec{
+    background-image: linear-gradient( to right,rgb(53, 53, 255),rgb(245, 0, 225));
+}
+.banner-content{
+    color: white;
+}
+@media( min-width: 300px ) and ( max-width: 575px ){
+    .banner-content p{
+        font-size: 11px;
+    }
+}
+.content-sec{
+    background-color: rgb(233 228 228);
+}
+.content-1{
+    background-color: rgb(233 228 228);
+}
+.content-4{
+    background-color: rgb(233 228 228);
+    text-align: end;
+}
+.content-sec img{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 20px 0px;
+}
+@media (min-width: 500px) and (max-width: 767px) {
+    .content-sec img{
+        width: 320px;
+        height: auto;
+        padding: 20px 0px;
+        position: relative;
+        left: 95px;
+    }
+}
+@media( min-width: 300px ) and ( max-width: 767px ){
+    .content-4{
+        text-align: start;
+    }
+}
+@media( min-width: 768px ) and ( max-width: 991px ){
+    .information p{
+        font-size: 13px;
+    }
+    .information{
+        font-size: 8px;
+    }
+}
+@media( min-width: 768px ) and ( max-width: 991px ){
+    .name span{
+        font-size: 21px;
+    }
+    .name h5{
+        font-size: 15px;
+    }
+    .name h6{
+        font-size: 13px;
+    }
+}
+@media( min-width: 768px ) and ( max-width: 991px ){
+    .content-sec img{
+        width: 100%;
+        height: 240px;
+        padding: 20px 0px;
+    }
+}
+@media( min-width: 992px ) and ( max-width: 1199px ){
+    .content-sec img{
+        width: 100%;
+        height: 330px;
+        padding: 20px 0px;
+    }
+}
+@media( min-width: 1200px ) and ( max-width: 1400px ){
+    .name span{
+        font-size: 32px;
+    }
+    .name h5{
+        font-size: 24px;
+    }
+    .name h6{
+        font-size: 20px;
+    }
+}
+@media( min-width: 1200px ) and ( max-width: 1400px ){
+    .information p{
+        font-size: 22px;
+    }
+    .information{
+        font-size: 20px;
+    }
+}
+@media( min-width: 1200px ) and ( max-width: 1400px ){
+    .content-sec img{
+        width: 100%;
+        height: 342px;
+        padding: 20px 0px;
+    }
+}
+.content-2{
+    background-color: white;
+    border: none;
+    box-shadow: 10px 0px 10px #d1d1d1;
+}
+.content-3{
+    background-color: white;
+    border: none;
+    box-shadow: 0px 0px 10px #d1d1d1;
+}
+.img-sec{
+    background-color: white;
+    border: none;
+    box-shadow: 0px 0px 10px #d1d1d1;
+}
+.img-sec-1{
+    background-color: white;
+    border: none;
+    box-shadow: 10px 0px 10px #d1d1d1;
+}
+@media (min-width: 300px) and (max-width: 575px) {
+    .button-sec-1{
+        font-size: 11px;
+    }
+}
+.footer{
+    line-height: 2;
+}
+.footer-sec{
+    font-size: 12px;
+}
+@media( min-width: 576px ) and ( max-width: 1199px ){
+    .footer-sec{
+        font-size: 15px;
+    }
+}
+@media( min-width: 1200px ) and ( max-width: 1400px ){
+    .footer-sec{
+        font-size: 16px;
+    }
+}
+.icofont-linkedin{
+    color: blue;
+}
+.button-sec-1{
+    background-color: yellow;
+    border-radius: 15px;
+    border: none;
+}
+.play-sec-1{
+    background-color: #dbdbdb;
+    border-radius: 15px;
+}
+.play-sec-1:hover{
+    background-color: #19f805;
+}
+.play-sec-2{
+    background-color: purple;
+    border-radius: 15px;
+    color: white;
+}
+.play-sec-2:hover{
+    background-color: #19f805;
+    color: black;
+}
+.footer{
+    line-height: 2;
+}
+.footer img{
+    width: 25px;
+    height: 25px;
+}
+.footer span{
+    padding-left: 20px;
+}
+.name-sec{
+    font-weight: bold;
+}
+.name-sec-1 h5:hover{
+    color:  #19f805;
+    font-weight: bold;
+}
+.name-sec-1 i:hover{
+    background-color:  #19f805;
+}
+.content h6{
+    font-family: 'Fredericka the Great', cursive;
+}
+.ico-sec{
+    background-color: #dbdbdb;
+    height: 2px;
+    width: 2px;
+    border-radius: 12px;
+    color: white;
+    padding: 5px;
+}
